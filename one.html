@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="one.css">
-    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -62,13 +61,14 @@ if(m3 < 0){
 }
 result.innerHTML = `you are <span>${y3}</span> years,<span>${m3} months</span> and <span>${d3}</span> days old`;
 
+function getDaysInMonth(year,month){
 }
 
-function getDaysInMonth(year,month){
     return new Date(year,month, 0).getDate();
 
 }
     </script>
+    <script src="script.js"></script>
 </body>
 </html>
 
